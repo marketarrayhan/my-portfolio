@@ -46,3 +46,11 @@ span{
     display: block;
     padding: 8px 22px;
 }
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: aliceblue;
+}
