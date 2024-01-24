@@ -7,7 +7,7 @@ body{
 .container{
     width: 100%;
     height: 100%;
-    background: #cdcdcd;
+    background: #303030;
 
 }
 .menu ul{
@@ -18,7 +18,7 @@ body{
 .menu ul li{
     list-style: none;
     margin: 0 20px;
-    color: rgb(0, 74, 83);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 .logo img{
@@ -27,14 +27,14 @@ body{
     margin-right: 50px;
 }
 .active{
-    color: rgb(255, 0, 255) !important;
+    color: #ff00ff !important;
 }
 .sign-btn{
     top: 40px;
     right: 80px;
     position: absolute;
     text-decoration: none;
-    color: rgb(1, 72, 72);
+    color: #ff00ff;
     border: 2px solid;
     border-radius: 20px;
     background-image: linear-gradient(#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
@@ -53,4 +53,38 @@ span{
     left: 130px;
     position: absolute;
     color: aliceblue;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 40px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 400px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    color: #919191;
+}
+.app-picture{
+    width: 50%;
+    float: right;
+}
+.app-picture img{
+    width: 80%;
+    margin-top: -20px;
+    padding-left: 50px;
+
+}
+.link-button{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #ff00ff;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
 }
